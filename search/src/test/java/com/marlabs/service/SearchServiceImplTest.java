@@ -60,7 +60,6 @@ public class SearchServiceImplTest {
 				);
 	}
 	
-	
 	@DisplayName("Search keyword Failed cases")
 	@Test
 	public void testSearchKeywordFailed() throws BusinessException {
@@ -77,10 +76,5 @@ public class SearchServiceImplTest {
 			//Test 
 			searchService.searchKeyword(4, "The", maps);
 		    });
-
-	
 	}
-	
-	
-	
 }
