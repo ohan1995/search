@@ -30,7 +30,7 @@ public class SearchServiceImpl implements SearchService {
     @Override
 	public Map<Integer, String> openDirectory() {
     	
-    	log.info("openDirectory() initialized");
+    	log.info("openDirectory() initialized and returning file list in form of map");
     	
     	int countMap = 1;
 		File dir = new File(DIR_NAME);;
